@@ -1,0 +1,24 @@
+<h1>
+    Add Employee</h1>
+
+
+<div class="container">
+    <table class="datatable">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let emp of employee">
+                <td>{{emp.id}}</td>
+                <td>{{emp.fname}}</td>
+                <td>{{emp.lname}}</td>
+                <td>{{emp.email}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
